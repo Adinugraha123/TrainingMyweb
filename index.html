@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta name = "viewpoint" content="width=device-width, initial-scale=1.0">
+         <meta charset="UTF - 8">   
+        <title>website 2</title>
+
+        <link rel="stylesheet" href="Style.css">   
+        </head>
+        <body>
+        
+             <section class="banner" id="sec"> 
+            
+           <header>
+               <a href="#" class="logo">logo</a>
+               <div id="toggle" onclick="toggle()"></div>
+               </header>
+                       <div class="content">
+                           <h2>Hello World,<br>I'm &ensp;<span>Adi Nugraha</span></h2>
+                           
+                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia repellat iusto nobis in, quidem voluptates officia ipsa tempore molestias, laborum sint. Illo amet cum rem at aliquid, enim temporibus ea? </p>
+                            <a href="#">know more</a>
+                        </div>
+                        
+                  <ul class="sci">
+                  <li> <a href="#"><img src="facebook.png"></a></li>
+                  <li> <a href="#"><img src="twitter.png"></a></li>
+                  <li> <a href="#"><img src="linkedin.png"></a></li>
+                  </ul>
+                </section>
+                <div id="navigation">
+                    <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li> 
+                       <li><a href="#">Services</a></li>
+                       <li><a href="#">Portofolio</a></li>
+                       <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+               <script type="text/javascript">
+                   function toggle(){
+                       var sec = document.getElementById('sec');
+                       var navigation = document.getElementById('navigation');
+                       sec.classList.toggle('active');
+                       navigation.classList.toggle('active');
+                   }
+               </script>
+        </body> 
+</html>
